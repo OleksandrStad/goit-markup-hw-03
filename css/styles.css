@@ -49,8 +49,8 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid tomato;
-    /* background-color: tomato; */
+    /* outline: 2px solid tomato; */
+
 }
 
 .list {
@@ -59,10 +59,7 @@ body {
 
 /* header section */
 
-.header {
-    /* background-color: gray; */
 
-}
 
 .header-container,
 .header-nav,
@@ -226,7 +223,7 @@ body {
 
 
 
-/* чим ми займаєьщся */
+/* чим ми займаємося */
 
 
 .reset {
@@ -235,8 +232,6 @@ body {
 
 .section-title {
     margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
 
     font-weight: 700;
     font-size: 36px;
@@ -247,13 +242,18 @@ body {
 
 .section-title-list {
     display: flex;
-    /* margin-bottom: 94px; */
-    justify-content: center;
+
 }
 
 .title-list {
-    padding: 0px 15px;
+    display: block;
+    margin-right: 30px;
 }
+
+.title-list:last-child {
+    margin-right: 0px;
+}
+
 
 /* наша команда */
 
@@ -262,9 +262,6 @@ body {
 }
 
 .section-title-team {
-    /* padding-top: 94px;
-    padding-bottom: 50px; */
-    /* margin: 0px auto; */
 
     margin-bottom: 50px;
 
@@ -276,16 +273,20 @@ body {
 
 .title-team {
     display: flex;
-    justify-content: space-between;
-    /* padding-bottom: 94px; */
+
 }
 
 .team {
-
+    margin-right: 30px;
+    display: block;
     background-color: var(--additional-text-color-2);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
+}
+
+.team:last-child {
+    margin-right: 0px;
 }
 
 .team-text {
@@ -317,7 +318,7 @@ body {
 
 .footer-logo {
 
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .address {}
@@ -348,17 +349,24 @@ body {
 
 /* portfolio */
 
+/* header */
+
+.header-border {
+    border: 1px solid #ECECEC;
+}
+
+
 /* Набір фільтрів */
 
 .list-button {
     display: flex;
     justify-content: center;
-
+    margin-bottom: 56px;
 }
 
 .btn-item {
-   
-    margin-bottom: 56px;
+
+
     margin-right: 8px;
 }
 
@@ -389,13 +397,17 @@ body {
     gap: 30px;
 }
 
-.portfolio-content {
-    /* background: var(--additional-text-color-2); */
-    /* border: 1px solid #EEEEEE; */
+.portfolio-content {}
+
+.box-content {
+    display: block;
 }
 
 .text {
-    margin: 20px 24px;
+    padding: 20px 24px;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
 }
 
 .content-title {
