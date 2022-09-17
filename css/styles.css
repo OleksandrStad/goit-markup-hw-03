@@ -24,15 +24,18 @@ h6 {
 ul {
     margin: 0;
     padding: 0;
-
 }
+
 
 body {
 
     color: var(--primery-text-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
+}
 
+img {
+    display: block;
 }
 
 /*   основной цвет тескта  #212121 */
@@ -57,9 +60,8 @@ body {
     list-style: none;
 }
 
+
 /* header section */
-
-
 
 .header-container,
 .header-nav,
@@ -150,7 +152,6 @@ body {
 
 }
 
-
 .hero-title {
     width: 696px;
     margin: 0 auto;
@@ -186,15 +187,12 @@ body {
 }
 
 
-
-
 /* наші переваги */
 
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
 
 
 .section-list {
@@ -222,9 +220,7 @@ body {
 }
 
 
-
 /* чим ми займаємося */
-
 
 .reset {
     padding-top: 0px;
